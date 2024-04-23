@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com; font-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://fonts.gstatic.com;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profesionalna firma koja nudi usluge prijevoda i pohađanja tečajeva jezika">
+    <meta name="keywords" content="prijevod, translation, engleski, hrvatski, njemački, prevođenje, english, german, akademija, jezik, jezici, govor, tekst">
+    <title>Akademija za jezik, govor i tekst</title>
+    <link rel="icon" type="image/x-icon" href="/assets/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <button id="logo-btn" onclick="scrollToTop()"><img src="assets/logo.svg" alt="Logo"></button>
+        </div>
+        <ul>
+            <li><button id="academy" class="nav-link">Akademija</button></li>
+            <li><button id="programs" class="nav-link">Programi</button></li>
+            <li><button id="services" class="nav-link">Usluge</button></li>
+            <li><button id="faq-nav" class="nav-link">FAQ</button></li>
+            <li><button id="contact" class="nav-link">Kontakt</button></li>
+        </ul>
+        <div class="lan-sel-div">
+            <input class="native-hidden" type="checkbox" id="language-select"/>
+            <label for="language-select" id="language-indicator">HR</label>
+        </div>
+    </nav>
+    <!--Hero section-->
+    <section>
+        <div class="hero">
+            <div class="hero-text">
+                <div class="hero-text-title">
+                    <h1 id="surpassing">Nadilaženje</h1>
+                    <h1 id="language">jezičnih</h1>
+                    <h1 id="barriers">barijera</h1>
+                </div>
+                <div class="hero-text-description">
+                    <p id="description">	
+                        Akademija za jezik, govor i tekst (skraćeno Akademija d.o.o.)<br>
+                        jezični je i prevoditeljski centar koji svoje visoko kvalitetne jezične programe<br> 
+                        temelji na jezičnim potrebama individualnih klijenata, a u skladu s Europskom jezičnom mapom.
+                    </p>
+                </div>
+                <div class="hero-buttons">
+                    <button class="hero-contact" id="contact-us" onclick="scrollToBottom()">KONTAKTIRAJTE NAS</button>
+                    <button class="cta">
+                        <span id="learn">SAZNAJTE VIŠE</span>
+                        <svg width="13px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-illustration">
+                <svg width="690" height="500" viewBox="0 0 690 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="edu 1" clip-path="url(#clip0_1_2)">
+                    <g id="other">
+                    <path id="Vector" d="M439.576 374.835V495.364H137.604C103.198 495.364 75.2051 468.329 75.2051 435.099C75.2051 401.87 103.198 374.835 137.604 374.835H439.576Z" fill="#F2F2F2"/>
+                    <path id="Vector_2" d="M446.993 494.437C446.993 495.666 446.504 496.845 445.635 497.715C444.765 498.584 443.587 499.072 442.357 499.073H132.225C115.381 499.073 99.2271 492.382 87.3167 480.471C75.4063 468.561 68.7151 452.407 68.7151 435.563C68.7151 418.719 75.4063 402.565 87.3167 390.655C99.2271 378.744 115.381 372.053 132.225 372.053H442.357C443.587 372.053 444.766 372.541 445.635 373.411C446.505 374.28 446.993 375.459 446.993 376.689C446.993 377.918 446.505 379.097 445.635 379.967C444.766 380.836 443.587 381.325 442.357 381.325H132.225C117.84 381.325 104.044 387.039 93.8727 397.211C83.701 407.382 77.9866 421.178 77.9866 435.563C77.9866 449.948 83.701 463.744 93.8727 473.915C104.044 484.087 117.84 489.801 132.225 489.801H442.357C443.587 489.802 444.765 490.29 445.635 491.16C446.504 492.029 446.993 493.208 446.993 494.437Z" fill="#93B835"/>
+                    <path id="Vector_3" d="M439.576 402.649H115.073C114.827 402.649 114.591 402.551 114.417 402.378C114.243 402.204 114.146 401.968 114.146 401.722C114.146 401.476 114.243 401.24 114.417 401.066C114.591 400.892 114.827 400.795 115.073 400.795H439.576C439.822 400.795 440.058 400.892 440.231 401.066C440.405 401.24 440.503 401.476 440.503 401.722C440.503 401.968 440.405 402.204 440.231 402.378C440.058 402.551 439.822 402.649 439.576 402.649Z" fill="#CCCCCC"/>
+                    <path id="Vector_4" d="M439.576 424.901H115.073C114.827 424.901 114.591 424.803 114.417 424.629C114.243 424.455 114.146 424.219 114.146 423.974C114.146 423.728 114.243 423.492 114.417 423.318C114.591 423.144 114.827 423.046 115.073 423.046H439.576C439.822 423.046 440.058 423.144 440.231 423.318C440.405 423.492 440.503 423.728 440.503 423.974C440.503 424.219 440.405 424.455 440.231 424.629C440.058 424.803 439.822 424.901 439.576 424.901Z" fill="#CCCCCC"/>
+                    <path id="Vector_5" d="M439.576 447.152H115.073C114.827 447.152 114.591 447.055 114.417 446.881C114.243 446.707 114.146 446.471 114.146 446.225C114.146 445.979 114.243 445.744 114.417 445.57C114.591 445.396 114.827 445.298 115.073 445.298H439.576C439.822 445.298 440.058 445.396 440.231 445.57C440.405 445.744 440.503 445.979 440.503 446.225C440.503 446.471 440.405 446.707 440.231 446.881C440.058 447.055 439.822 447.152 439.576 447.152Z" fill="#CCCCCC"/>
+                    <path id="Vector_6" d="M439.576 469.404H115.073C114.827 469.404 114.591 469.306 114.417 469.132C114.243 468.959 114.146 468.723 114.146 468.477C114.146 468.231 114.243 467.995 114.417 467.821C114.591 467.647 114.827 467.55 115.073 467.55H439.576C439.822 467.55 440.058 467.647 440.231 467.821C440.405 467.995 440.503 468.231 440.503 468.477C440.503 468.723 440.405 468.959 440.231 469.132C440.058 469.306 439.822 469.404 439.576 469.404Z" fill="#CCCCCC"/>
+                    <path id="Vector_7" d="M672.956 397.523L597.333 491.377L362.193 301.913C335.402 280.326 330.568 241.711 351.416 215.836C372.265 189.961 411.025 186.472 437.816 208.059L672.956 397.523Z" fill="#F2F2F2"/>
+                    <path id="Vector_8" d="M603.691 495.309C602.919 496.266 601.799 496.877 600.577 497.008C599.354 497.14 598.13 496.781 597.172 496.01L355.678 301.426C342.562 290.858 334.182 275.512 332.38 258.765C330.579 242.018 335.504 225.241 346.072 212.125C356.64 199.009 371.986 190.628 388.733 188.827C405.48 187.025 422.257 191.95 435.373 202.519L676.867 397.102C677.342 397.484 677.736 397.955 678.028 398.49C678.32 399.024 678.504 399.611 678.57 400.216C678.635 400.822 678.58 401.434 678.409 402.019C678.237 402.603 677.953 403.148 677.57 403.622C677.188 404.096 676.717 404.491 676.182 404.782C675.647 405.074 675.061 405.258 674.455 405.323C673.85 405.388 673.237 405.333 672.653 405.161C672.069 404.989 671.524 404.704 671.05 404.322L429.556 209.738C424.01 205.266 417.637 201.93 410.802 199.921C403.967 197.912 396.802 197.27 389.719 198.031C382.635 198.791 375.77 200.94 369.517 204.354C363.264 207.768 357.745 212.381 353.275 217.929C348.805 223.476 345.471 229.85 343.465 236.687C341.459 243.523 340.82 250.687 341.583 257.771C342.346 264.854 344.498 271.718 347.915 277.97C351.331 284.222 355.946 289.739 361.495 294.207L602.989 488.79C603.946 489.562 604.558 490.682 604.689 491.904C604.821 493.127 604.461 494.351 603.691 495.309Z" fill="#CCCCCC"/>
+                    <path id="Vector_9" d="M655.505 419.181L402.821 215.581C402.726 215.505 402.647 215.411 402.588 215.304C402.53 215.197 402.493 215.08 402.48 214.959C402.467 214.837 402.478 214.715 402.513 214.598C402.547 214.481 402.604 214.372 402.68 214.278C402.757 214.183 402.851 214.104 402.958 214.046C403.065 213.987 403.182 213.951 403.303 213.938C403.424 213.925 403.547 213.935 403.663 213.97C403.78 214.004 403.889 214.061 403.984 214.137L656.668 417.738C656.763 417.814 656.842 417.908 656.901 418.015C656.959 418.122 656.996 418.239 657.009 418.36C657.022 418.482 657.011 418.604 656.977 418.721C656.943 418.838 656.886 418.947 656.809 419.042C656.733 419.137 656.638 419.216 656.531 419.274C656.424 419.332 656.307 419.369 656.186 419.382C656.065 419.395 655.942 419.384 655.825 419.35C655.708 419.315 655.6 419.258 655.505 419.181Z" fill="#CCCCCC"/>
+                    <path id="Vector_10" d="M641.544 436.508L388.859 232.908C388.668 232.754 388.546 232.53 388.52 232.286C388.494 232.041 388.566 231.797 388.72 231.605C388.874 231.414 389.098 231.292 389.342 231.265C389.586 231.239 389.831 231.31 390.023 231.464L642.707 435.064C642.802 435.141 642.881 435.235 642.939 435.342C642.998 435.449 643.035 435.566 643.048 435.687C643.061 435.809 643.05 435.931 643.016 436.048C642.982 436.165 642.925 436.274 642.848 436.369C642.772 436.464 642.677 436.543 642.57 436.601C642.463 436.659 642.346 436.696 642.225 436.709C642.104 436.722 641.981 436.711 641.864 436.676C641.747 436.642 641.638 436.585 641.544 436.508Z" fill="#CCCCCC"/>
+                    <path id="Vector_11" d="M627.582 453.835L374.898 250.235C374.707 250.081 374.584 249.857 374.558 249.612C374.532 249.368 374.604 249.123 374.758 248.931C374.912 248.74 375.136 248.618 375.381 248.591C375.625 248.565 375.87 248.637 376.062 248.791L628.746 452.391C628.841 452.468 628.919 452.562 628.978 452.669C629.036 452.776 629.073 452.893 629.086 453.014C629.099 453.135 629.088 453.258 629.054 453.374C629.019 453.491 628.962 453.6 628.886 453.695C628.81 453.79 628.715 453.869 628.608 453.927C628.502 453.985 628.384 454.022 628.263 454.035C628.142 454.048 628.02 454.037 627.903 454.003C627.786 453.969 627.677 453.912 627.582 453.835Z" fill="#CCCCCC"/>
+                    <path id="Vector_12" d="M613.621 471.162L360.937 267.562C360.842 267.486 360.763 267.391 360.705 267.285C360.647 267.178 360.61 267.06 360.597 266.939C360.584 266.818 360.595 266.696 360.629 266.579C360.663 266.462 360.72 266.353 360.797 266.258C360.873 266.164 360.968 266.085 361.074 266.026C361.181 265.968 361.299 265.931 361.42 265.918C361.541 265.905 361.663 265.916 361.78 265.951C361.897 265.985 362.006 266.042 362.1 266.118L614.785 469.718C614.88 469.795 614.959 469.889 615.017 469.996C615.076 470.103 615.113 470.22 615.126 470.341C615.139 470.462 615.128 470.585 615.094 470.702C615.059 470.819 615.002 470.928 614.926 471.023C614.849 471.118 614.755 471.196 614.648 471.255C614.541 471.313 614.424 471.35 614.302 471.363C614.181 471.376 614.059 471.365 613.942 471.33C613.825 471.296 613.716 471.239 613.621 471.162Z" fill="#CCCCCC"/>
+                    <path id="Vector_13" d="M688.874 500H0.927152C0.681256 500 0.445431 499.902 0.271556 499.728C0.0976811 499.555 0 499.319 0 499.073C0 498.827 0.0976811 498.591 0.271556 498.417C0.445431 498.243 0.681256 498.146 0.927152 498.146H688.874C689.12 498.146 689.356 498.243 689.529 498.417C689.703 498.591 689.801 498.827 689.801 499.073C689.801 499.319 689.703 499.555 689.529 499.728C689.356 499.902 689.12 500 688.874 500Z" fill="#CCCCCC"/>
+                    <path id="Vector_14" d="M313.452 362.166L302.853 362.165L297.812 321.281L313.456 321.283L313.452 362.166Z" fill="#FFB8B8"/>
+                    <path id="Vector_15" d="M295.282 359.137H315.723V372.007H282.411C282.411 370.317 282.744 368.643 283.391 367.082C284.037 365.52 284.985 364.101 286.181 362.906C287.376 361.711 288.795 360.763 290.356 360.116C291.918 359.469 293.591 359.137 295.282 359.137Z" fill="#2F2E41"/>
+                    <path id="Vector_16" d="M205.166 362.166L194.567 362.165L189.526 321.281L205.169 321.283L205.166 362.166Z" fill="#FFB8B8"/>
+                    <path id="Vector_17" d="M186.995 359.137H207.437V372.007H174.125C174.125 370.317 174.458 368.643 175.104 367.082C175.751 365.52 176.699 364.101 177.894 362.906C179.09 361.711 180.508 360.763 182.07 360.116C183.631 359.469 185.305 359.137 186.995 359.137Z" fill="#2F2E41"/>
+                    <path id="Vector_18" d="M240.569 58.9048V54.269C240.569 46.3389 243.719 38.7335 249.327 33.1261C254.934 27.5186 262.539 24.3683 270.47 24.3683C278.4 24.3683 286.005 27.5186 291.613 33.1261C297.22 38.7335 300.37 46.3389 300.37 54.269V58.9048C300.37 64.6219 298.099 70.1048 294.057 74.1474C290.014 78.19 284.531 80.4611 278.814 80.4611H262.125C259.294 80.4611 256.491 79.9035 253.876 78.8202C251.261 77.7369 248.884 76.1491 246.883 74.1474C244.881 72.1457 243.293 69.7694 242.21 67.1541C241.126 64.5387 240.569 61.7356 240.569 58.9048Z" fill="#2F2E41"/>
+                    <path id="Vector_19" d="M270.47 82.0562C283.046 82.0562 293.241 71.8609 293.241 59.2844C293.241 46.7079 283.046 36.5126 270.47 36.5126C257.893 36.5126 247.698 46.7079 247.698 59.2844C247.698 71.8609 257.893 82.0562 270.47 82.0562Z" fill="#FFB8B8"/>
+                    <path id="Vector_20" d="M146.606 137.548C147.53 136.676 148.634 136.016 149.84 135.616C151.047 135.217 152.326 135.086 153.589 135.235C154.851 135.383 156.065 135.806 157.146 136.475C158.227 137.143 159.149 138.04 159.846 139.103L179.366 135.411L184.504 146.726L156.863 151.554C155 152.606 152.815 152.938 150.723 152.487C148.632 152.036 146.778 150.833 145.514 149.107C144.249 147.381 143.662 145.25 143.863 143.12C144.064 140.99 145.04 139.007 146.606 137.548Z" fill="#FFB8B8"/>
+                    <path id="Vector_21" d="M252.971 96.7839L220.961 117.871L166.946 135.119C166.23 135.35 165.616 135.821 165.209 136.453C164.801 137.085 164.625 137.838 164.71 138.585L165.889 148.735C165.941 149.184 166.086 149.617 166.316 150.007C166.545 150.396 166.854 150.734 167.221 150.997C167.589 151.261 168.007 151.445 168.45 151.537C168.893 151.629 169.35 151.628 169.792 151.533L220.628 140.637C223.088 140.112 225.414 139.088 227.462 137.628L263.424 112.041C264.728 111.108 265.768 109.854 266.444 108.401C267.119 106.947 267.407 105.343 267.28 103.745C267.148 102.145 266.602 100.607 265.695 99.2822C264.788 97.9572 263.552 96.8911 262.109 96.1887C260.665 95.4863 259.063 95.1718 257.461 95.2762C255.859 95.3805 254.312 95.9002 252.971 96.7839Z" fill="#CCCCCC"/>
+                    <path id="Vector_22" d="M303.043 350.564C302.229 350.564 301.433 350.328 300.752 349.883C300.071 349.438 299.534 348.805 299.206 348.06L250.614 227.993C250.501 227.732 250.31 227.513 250.069 227.364C249.827 227.215 249.545 227.144 249.261 227.16C248.978 227.176 248.706 227.278 248.482 227.453C248.258 227.628 248.094 227.868 248.01 228.139L208.367 345.029C208.2 345.573 207.923 346.077 207.553 346.51C207.184 346.943 206.73 347.296 206.219 347.547C205.708 347.798 205.152 347.942 204.583 347.97C204.015 347.998 203.447 347.909 202.914 347.709L189.62 342.724C188.898 342.456 188.265 341.993 187.791 341.387C187.317 340.78 187.02 340.054 186.934 339.289C180.953 287.191 233.106 155.686 233.634 154.364L233.78 153.998L281.321 164.514L281.42 164.622C300.388 185.314 315.979 315.824 318.911 341.776C319.021 342.714 318.807 343.66 318.307 344.46C317.806 345.26 317.048 345.866 316.157 346.177L304.422 350.327C303.979 350.484 303.513 350.564 303.043 350.564Z" fill="#2F2E41"/>
+                    <path id="Vector_23" d="M262.08 168.747C250.562 168.747 237.72 166.45 233.767 156.971L233.676 156.754L233.799 156.552C236.919 151.432 241.043 142.7 238.826 141.06C234.46 137.832 232.342 132.521 232.53 125.275C232.938 109.545 243.656 95.5797 259.2 90.5234C263.539 89.1349 267.954 87.9981 272.424 87.1186C275.683 86.4611 279.047 86.5334 282.274 87.3304C285.501 88.1274 288.512 89.6292 291.09 91.7281C293.7 93.8407 295.811 96.5053 297.269 99.5304C298.727 102.555 299.497 105.866 299.523 109.224C299.686 126.034 297.098 149.447 283.843 165.521C283.222 166.267 282.358 166.769 281.402 166.941C275.025 168.094 268.561 168.698 262.08 168.747Z" fill="#CCCCCC"/>
+                    <path id="Vector_24" d="M257.796 168.117C258.422 165.869 259.911 163.958 261.939 162.802C263.966 161.645 266.369 161.335 268.623 161.939C269.084 162.067 269.533 162.234 269.966 162.436L284.788 148.947L295.096 155.892L273.899 174.649C272.942 176.374 271.436 177.73 269.619 178.501C267.802 179.272 265.78 179.412 263.874 178.901C262.764 178.597 261.725 178.076 260.817 177.369C259.909 176.661 259.151 175.78 258.586 174.777C258.02 173.774 257.66 172.669 257.524 171.526C257.388 170.383 257.481 169.225 257.796 168.117Z" fill="#FFB8B8"/>
+                    <path id="Vector_25" d="M282.44 168.289C281.478 168.289 280.546 167.957 279.802 167.348L273.957 162.571C273.469 162.173 273.078 161.67 272.813 161.099C272.548 160.528 272.415 159.905 272.425 159.276C272.435 158.647 272.587 158.028 272.869 157.466C273.152 156.904 273.558 156.413 274.058 156.03L298.573 137.227C298.864 137.003 299.054 136.674 299.104 136.31C299.153 135.947 299.057 135.578 298.836 135.285L283.705 115.281C281.947 112.964 281.065 110.101 281.215 107.197C281.366 104.293 282.539 101.535 284.527 99.4133C286.621 97.1519 289.489 95.7602 292.561 95.5145C295.633 95.2688 298.685 96.187 301.112 98.0868L301.208 98.1878L317.008 120.813C318.717 122.152 320.093 123.869 321.028 125.828C321.964 127.787 322.434 129.936 322.401 132.107C322.369 134.278 321.835 136.412 320.842 138.343C319.848 140.273 318.422 141.948 316.674 143.236L284.923 167.471C284.204 168.002 283.334 168.289 282.44 168.289Z" fill="#CCCCCC"/>
+                    <path id="Vector_26" d="M250.299 52.8783V41.5799L270.47 32.7719L289.703 41.5799V52.8783C289.703 53.3701 289.507 53.8417 289.16 54.1895C288.812 54.5372 288.34 54.7326 287.848 54.7326H252.153C251.661 54.7326 251.19 54.5372 250.842 54.1895C250.494 53.8417 250.299 53.3701 250.299 52.8783Z" fill="#2F2E41"/>
+                    <path id="Vector_27" d="M269.544 25.8672C266.578 16.3746 272.807 5.49552 282.015 1.73808C291.223 -2.01936 302.239 0.607205 310.009 6.81506C317.778 13.0229 322.599 22.3211 325.153 31.9327C327.708 41.5443 328.192 51.5668 328.664 61.5008C339.977 63.5789 347.673 76.9975 343.754 87.8118C339.835 98.6262 325.329 103.999 315.311 98.3464C305.293 92.6941 302.392 77.4998 309.622 68.5536C313.043 64.3205 314.954 59.067 315.052 53.6251C315.151 48.1833 313.43 42.8641 310.164 38.5102C306.898 34.1563 302.273 31.0165 297.021 29.588C291.769 28.1596 286.191 28.5242 281.17 30.6241C275.594 32.9558 268.598 26.8975 269.544 25.8672Z" fill="#2F2E41"/>
+                    </g>
+                    <g id="hat">
+                    <g id="Group 1">
+                    <path id="Vector_28" d="M141.615 115.865C128.07 115.776 114.695 112.847 102.352 107.266C101.618 106.938 100.994 106.404 100.557 105.729C100.121 105.053 99.8902 104.265 99.8936 103.461V69.6958C99.8948 68.5897 100.335 67.5292 101.117 66.747C101.899 65.9648 102.96 65.5249 104.066 65.5237H179.165C180.271 65.5249 181.332 65.9649 182.114 66.747C182.896 67.5292 183.336 68.5897 183.337 69.6958V103.461C183.341 104.265 183.11 105.053 182.673 105.729C182.237 106.404 181.613 106.938 180.879 107.266C168.536 112.847 155.161 115.776 141.615 115.865Z" fill="#93B835"/>
+                    <path id="Vector_29" d="M141.605 88.5114C141.048 88.5118 140.497 88.401 139.984 88.1854L80.4311 63.06C79.6631 62.736 79.0098 62.1894 78.5554 61.4906C78.1009 60.7919 77.8662 59.9731 77.8815 59.1397C77.8967 58.3063 78.1613 57.4966 78.6411 56.815C79.1208 56.1334 79.7937 55.6111 80.573 55.3155L140.127 32.7229C141.086 32.3573 142.146 32.3596 143.104 32.7292L201.859 55.3217C202.634 55.6197 203.303 56.1422 203.779 56.8222C204.255 57.5022 204.518 58.3088 204.533 59.1389C204.549 59.969 204.316 60.7848 203.865 61.4819C203.414 62.179 202.766 62.7258 202.002 63.0522L143.246 88.1773C142.727 88.3982 142.169 88.5119 141.605 88.5114Z" fill="#93B835"/>
+                    <path id="Vector_30" opacity="0.2" d="M202.205 59.4859L143.449 84.6109C142.991 84.8068 142.498 84.9084 142 84.9096C141.502 84.9108 141.008 84.8116 140.549 84.6179L80.9965 59.4932C80.2486 59.1852 79.6247 58.6368 79.2233 57.9346C78.9607 58.3899 78.798 58.8959 78.7459 59.419C78.6939 59.942 78.7537 60.4702 78.9214 60.9683C79.0891 61.4665 79.3609 61.9233 79.7186 62.3084C80.0764 62.6934 80.512 62.998 80.9965 63.2018L140.549 88.3265C141.008 88.5202 141.502 88.6194 142 88.6182C142.498 88.617 142.991 88.5154 143.449 88.3195L202.205 63.1945C202.687 62.9888 203.12 62.6833 203.476 62.2981C203.831 61.9128 204.1 61.4566 204.266 60.9595C204.432 60.4624 204.491 59.9358 204.439 59.4143C204.386 58.8929 204.224 58.3885 203.962 57.9345C203.563 58.6311 202.946 59.1765 202.205 59.4859Z" fill="black"/>
+                    <path id="Vector_31" d="M107.315 103.979C107.561 103.979 107.796 103.881 107.97 103.707C108.144 103.533 108.242 103.297 108.242 103.052V72.0277L138.82 60.8878C139.066 60.8915 139.304 60.7973 139.48 60.626C139.657 60.4548 139.758 60.2204 139.761 59.9745C139.765 59.7286 139.671 59.4913 139.5 59.3149C139.328 59.1384 139.094 59.0372 138.848 59.0335L108.269 70.1734C108.023 70.1677 107.779 70.2121 107.55 70.3037C107.322 70.3954 107.114 70.5325 106.941 70.7067C106.765 70.8788 106.625 71.0843 106.53 71.3112C106.435 71.5381 106.387 71.7817 106.388 72.0277V103.052C106.388 103.297 106.485 103.533 106.659 103.707C106.833 103.881 107.069 103.979 107.315 103.979Z" fill="#3F3D56"/>
+                    </g>
+                    <path id="Vector_32" d="M107.655 87.4174C110.728 87.4174 113.218 84.9268 113.218 81.8545C113.218 78.7822 110.728 76.2915 107.655 76.2915C104.583 76.2915 102.093 78.7822 102.093 81.8545C102.093 84.9268 104.583 87.4174 107.655 87.4174Z" fill="#3F3D56"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_2">
+                    <rect width="689.801" height="500" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>                                           
+            </div>               
+        </div>
+    </section>
+    <section class="core-principles-section">
+        <div class="core-principles">
+            <h3 id="base-principles">Naša <span>temeljna</span> načela</h3>
+            <div class="diagonals">
+                <div class="mission">
+                    <div class="values-title">
+                        <img src="assets/mission.svg" alt="">
+                        <h2 id="mission">Misija</h2>
+                    </div>
+                    <p id="mission-text">Cjeloviti jezični programi krojeni prema potrebama polaznika, fleskibilnost i primjena suvremenih rješenja u podučavanju i prevođenju.</p>
+                </div>
+                <div class="mission vision">
+                    <div class="values-title">
+                        <img src="assets/vision.svg" alt="">
+                        <h2 id="vision">Vizija</h2>
+                    </div>
+                    <p id="vision-text">Vodeća institucija za područja intenzivnog jezičnog usavršavanja, unaprijeđenje kvalitete pisanog teksta i govora.</p>
+                </div>
+                <div class="mission">
+                    <div class="values-title">
+                        <img src="assets/values.svg" alt="">
+                        <h2 id="values">Vrijednosti</h2>
+                    </div>
+                    <p id="values-text">Vrijednosti kojima se vodi Akademija za jezik, govor i tekst su suvremenost, fleksibilnost, cjelovitost i primjenjivost usvojenog znanja.</p>
+                </div>
+            </div>
+        </div>
+        <div class="lister">
+            <h2 id="academy-made">Akademiju čini vr<span>stan tim profesora, stručnjaka i prevoditelja </span>koji:</h2>
+            <div class="lister-cards">
+                <div class="card">
+                    <h1>1</h1>
+                    <p id="trends">Prate nove trendove u podučavanju i prevođenju jezika.</p>
+                </div>
+                <div class="card">
+                    <h1>2</h1>
+                    <p id="create">Stvaraju ciljane programe krojene prema potrebama klijenata.</p>
+                </div>
+                <div class="card">
+                    <h1>3</h1>
+                    <p id="choose">Odabiru i kreiraju materijale koji u cijelosti prate jezične programe.</p>
+                </div>
+                <div class="card">
+                    <h1>4</h1>
+                    <p id="flexibility">Iskazuju fleksibilnost pristupu i inovativnost u metodi podučavanja jezika (PLTM).</p>
+                </div>
+                <div class="card">
+                    <h1>5</h1>
+                    <p id="measure">Mjere konkretne uspjehe polaznika u primjeni stečenih znanja i daju povratnu informaciju.</p>
+                </div>
+                <div class="card">
+                    <h1>6</h1>
+                    <p id="quality">Ostvaruju visoku jezičnu kvalitetu tekstualnih i usmenih prijevoda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="programs-section">
+        <h2 id="programs-title">Akademijine je<span>zične programe či</span>ne:</h2>
+        <div class="programs">
+            <div id="company">
+                <img src="assets/company.svg" alt="">
+                <p id="companyp">Programi za tvrtke</p>
+            </div>
+            <div id="citizens">
+                <img src="assets/citizens.svg" alt="">
+                <p id="citizensp">Programi za građanstvo</p>
+            </div>
+            <div id="intense">
+                <img src="assets/intense.svg" alt="">
+                <p id="intensep">Intenzivni tečajevi</p>
+            </div>
+        </div>
+        <p id="notice">* Programi iz hrvatskog i stranih jezika posebno se kroje prema potrebama pojedinačnog klijenata ili grupe.</p>
+        <ul>
+            <li id="programs-li1">Naši polaznici zajedno sa jezičnim stručnjacima Akademije aktivno sudjeluju u stvaranju programa, provedbi i davanju povratne informacije edukatorima. Svi profesori Akademije rade prema PLT metodi ( Professional Language Training Method ), a odlikuje ih fleksibilan pristup i odgovornost u radu i zadovoljavanju jezičnih potreba pojedinih klijenata.</li>
+            <li id="programs-li2">Pismeni i usmeni ispiti na kraju tečajeva sadržajem i težinom odgovaraju međunarodno priznatim ispitima.</li>
+            <li id="programs-li3">Jezični programi usklađeni su s Europskom jezičnom mapom (CEFR), a razine kompetencija na stranom jeziku izražene su deskriptorima kako slijedi. <a href="assets/kompetencije.pdf" style="color: #93B835; font-weight: 600;">Preuzmite tablicu programa po stupnjevima u PDF formatu.</a></li>
+        </ul>
+    </section>
+    <section class="services-section">
+        <div class="text-part">
+            <h2 id="our-services">Naš<span>e usluge</span></h2>
+            <p id="services-desc">Prevoditelji Akademije imaju visoku jezičnu razinu usmenih i pismenih prijevoda
+                iz područja poslovanja. Prijevodi uključuju sve vrste tehničke i druge dokumentacije, pravne dokumente
+                za koje je potrebna ovjera sudskog tumača, tekstove opće i poslovne tematike, te literarne prijevode.
+                Tim lingvista i lektora bavi se lektoriranjem prijevoda, različitih tekstova i svake druge pisane riječi 
+                u cilju stvaranja visoke kvalitete teksta i govora kojima se klijent predstavlja.</p>
+        </div>
+        <div class="services">
+            <div class="single-grid">
+                <div class="service s2">
+                    <img src="assets/translate.svg" alt="">
+                    <div>
+                    <h3 id="trans-services">Usluge prijevoda</h3>
+                    <span id="trans-median">Prevođenje općih i stručnih tekstova iz svih područja poslovanja</span>
+                    </div>
+                    <ul>
+                        <li id="trans-1"><img src="assets/check.svg" class="check" alt="checkmark"> stranih jezika na hrvatski</li>
+                        <li id="trans-2"><img src="assets/check.svg" class="check" alt="checkmark"> s hrvatskog na strane jezike</li>
+                        <li id="trans-3"><img src="assets/check.svg" class="check" alt="checkmark"> sa stranog na drugi strani jezik</li>
+                        <li id="trans-4"><img src="assets/check.svg" class="check" alt="checkmark"> lektoriranje prijevoda</li>
+                        <li id="trans-5"><img src="assets/check.svg" class="check" alt="checkmark"> lektoriranje tekstova na hrvatskom jeziku</li>
+                        <li id="trans-6"><img src="assets/check.svg" class="check" alt="checkmark"> sudsko tumačenje</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="multi-grid">
+                <div class="service s1">
+                    <img src="assets/course.svg" alt="">
+                    <h3 id="course-services">Tečajevi poslovnog i općeg jezika</h3>
+                    <ul>
+                        <li id="course-1"><img src="assets/check.svg" class="check" alt="checkmark"> redovni programi općeg jezika</li>
+                        <li id="course-2"><img src="assets/check.svg" class="check" alt="checkmark"> redovni programi poslovnog jezika</li>
+                        <li id="course-3"><img src="assets/check.svg" class="check" alt="checkmark"> specijalizirani programi jezika struke</li>
+                        <li id="course-4"><img src="assets/check.svg" class="check" alt="checkmark"> intenzivni programi poslovnih komunikacijskih vještina</li>
+                    </ul>
+                </div>
+                <div class="service s3">
+                    <img src="assets/exam.svg" alt="">
+                    <h3 id="testing-services">Usluge testiranja jezične kompetencije</h3>
+                    <ul>
+                        <li id="testing-1"><img src="assets/check.svg" class="check" alt="checkmark"> testiranje znanja stranih jezika kandidata za osobne i potrebe poslodavca</li>
+                    </ul>
+                </div>
+            </div>
+    </section>
+    <section class="faq-section">
+        <div class="faq-intro">
+            <h2 id="faq">Često postavljana pitanja</h2>
+            <p id="faq-elab">Imate drugih pitanja i ne možete pronaći odgovor? <button id="to-contact" onclick="scrollToBottom()">Kontaktirajte nas</button> preko e-maila ili telefona i rado ćemo vam pomoći!</p>
+        </div>
+        <dl class="faq-questions">
+            <div class="question">
+                <dt id="question-1">Određivanje stupnja predznanja</dt>
+                <dd id="answer-1">Određivanje stupnja predznanja polaznika vrši se za potrebe upisa u tečaj Akademije. Polaznik može odabrati testiranje putem e-maila ili osobno doći u prostorije škole i ispuniti test. Na osnovu rezultata testa klijentu se predlaže stupanj odnosno grupa u kojoj bi bilo optimalno pohađati tečaj.</dd>
+            </div>
+            <div class="question">
+                <dt id="question-2">Dinamika</dt>
+                <dd id="answer-2">Tečajevi se odvijaju standardnom dinamikom 2 x 2 školska sata tjedno. Dinamiku je moguće prilagoditi zahtjevima grupe.</dd>
+            </div>
+            <div class="question">
+                <dt id="question-3">Stupnjevanje</dt>
+                <dd id="answer-3">Akademija za jezik, govor i tekst prilagodila je stupnjeve preporukama Vijeća Europe navedenim u Europskoj jezičnoj mapi (Common European Framework of Reference for Languages) A1-C1. Za više detalja pogledajte pod Akademija 'Programi' - stupnjevanje.</dd>
+            </div>
+            <div class="question">
+                <dt id="question-4">Certifikati</dt>
+                <dd id="answer-4">Nakon završenog stupnja tečaja, Akademija izdaje certifikat koji je oznakom stupnja usklađen s Europskom jezičnom mapom A1-C1. Također, Akademija za jezik, govor i tekst u procesu je stjecanja akreditacije Ministarstva obrazovanja kako bi programi jezika po završetku mogli biti upisani u radnu knjižicu polaznika.</dd>
+            </div>
+            <div class="question">
+                <dt id="question-6">Predavači</dt>
+                <dd id="answer-6">Predavači su diplomirani profesori stranih jezika s višegodišnjim iskustvom u radu s odraslim polaznicima i na tečajevima poslovnog jezika. Obučavaju se na in-house treninzima kao i na stručnim seminarima u Hrvatskoj (HUPE) i inozemstvu, među ostalima i po programima i metodama Londonske gospodarske komore (LCCI) priznate od ARELS-a.</dd>
+            </div>
+            <div class="question">
+                <dt id="question-5">Broj polaznika</dt>
+                <dd id="answer-5">Tečajevi se odvijaju u grupama 5-8 polaznika. Moguće je organizirati individualnu poduku prema zahtjevima klijenta.</dd>
+            </div>
+        </dl>
+    </section>
+    <section class="contact-section">
+        <h2 id="contact-us-s">K<span>ontaktirajt</span>e nas</h2>
+        <dl class="details-list details-list--rows di3-grid details-list--cols@md">
+            <div class="details-list__item di3-padding-y-md di3-padding-x-md@md di3-text-center@md di3-col-4@md">
+              <dt id="address", class="di3-font-bold di3-margin-bottom-2xs">Adresa</dt>
+              <dd class="di3-line-height-md">
+                Sv. Mateja 43<br>Zagreb, HR
+              </dd>
+            </div>
+          
+            <div class="details-list__item di3-padding-y-md di3-padding-x-md@md di3-text-center@md di3-col-4@md">
+              <dt class="di3-font-bold di3-margin-bottom-2xs">E-mail</dt>
+              <dd>
+                <a href="mailto:webmaster@example.com">info@akdm.hr</a>
+              </dd>
+            </div>
+          
+            <div class="details-list__item di3-padding-y-md di3-padding-x-md@md di3-text-center@md di3-col-4@md">
+              <dt id="phone" class="di3-font-bold di3-margin-bottom-2xs">Telefon</dt>
+              <dd class="di3-line-height-md">
+                <p><a href="tel:+44 7656 6455">+385 99 4490 044</a></p>
+                <p id="days" class="di3-color-contrast-medium">Pon - Pet, 08:00 - 16:00</p>
+              </dd>
+            </div>
+          </dl>
+    </section>
+    <footer>
+        <div class="copyright">
+            <p>Copyright <script>document.write(new Date().getFullYear())</script><span id="rights"> @ Akademija d.o.o Sva prava zadržana</span></p>
+        </div>
+    </footer>  
+    <button class="back-to-top js-back-to-top" onclick="scrollToTop()" data-offset="100">
+        <svg class="cd-icon" viewBox="0 0 20 20">
+          <polyline points="2 13 10 5 18 13" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </svg>
+    </button>
+</body>
+</html>
