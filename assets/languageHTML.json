@@ -18,7 +18,7 @@
        "contact-us-s":"C<span>ontact</span> us",
        "faq-elab":"Have a different question and can't find the answer you're looking for? <button id='to-contact' onclick='scrollToBottom()'>Contact us</button> by e-mail or phone and we'll gladly help you!",
        "programs-title":"Language pr<span>ograms of Akademija a</span>re:",
-       "programs-li3":"Language programs are compatible with the Common European Framework of Reference for Languages (CEFR), with foreign-language competence evaluated with following descriptive grades (descriptors). <a href=\"assets/competency.pdf\" style=\"color: #93B835; font-weight: 600;\">Download the program table by levels in PDF format.</a>"
+       "programs-li3":"Language programs are compatible with the Common European Framework of Reference for Languages (CEFR), with foreign-language competence evaluated with following descriptive grades (descriptors). <a href=\"assets/competency.pdf\" target=\"_blank\" style=\"color: #93B835; font-weight: 600;\">Download the program table by levels in PDF format.</a>"
     },
     "hr":{
        "description":"Akademija za jezik, govor i tekst (skraćeno Akademija d.o.o.)<br>jezični je i prevoditeljski centar koji svoje visoko kvalitetne jezične programe<br> temelji na jezičnim potrebama individualnih klijenata, a u skladu s Europskom jezičnom mapom.",
